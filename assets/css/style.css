@@ -1,0 +1,147 @@
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#top {
+  background-color: #ffffff; 
+  height:90px;
+  border: 1px solid #cccccc;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+#body {
+margin-bottom:100px;
+}
+
+#divisionbody{
+  margin-top:40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height:auto;
+  background-color:#ffffff;
+  border: 1px solid #cccccc;
+}
+
+#bodyheader {
+  margin-right: 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left:30px;
+  font-family: Arial,'Helvetica Neue', Helvetica, sans-serif;
+  color: #4aaaa5;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-bottom: 2px solid #cccccc;
+}
+
+#bodytext {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left:30px;
+  font-family: Arial,'Helvetica Neue', Helvetica, sans-serif;
+  color: gray;
+  font-size: large;
+  line-height: 2;
+  text-align: justify;
+}
+
+#image {
+  height:250px;
+  float: left;
+  padding-right:30px;
+  padding-top:10px;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height:90px;
+  background-color: #ffffff;
+}
+
+
+#menu {
+  float: right;
+  height:90px;
+  background-color:#ffffff;
+  color: #999999;
+  vertical-align: center;
+  line-height: 90px;  
+}
+
+#name {
+  float: left;
+  height:90px;
+  background-color:#4aaaa5;
+  text-align: center;
+  vertical-align: center;
+  line-height: 90px;  
+}
+
+#nametext {
+  margin-left:15px;
+  margin-right:15px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#footer {
+  text-align: center;
+  background-color: gray; 
+  height:60px;
+  border-top: 10px solid #4aaaa5;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+#footertext {
+  padding-top:30px;
+  position: absolute;
+  left: 50%;
+}
+
+.spaceimage {
+  padding-top:30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.textimage {
+  color: white;
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+}
+
+.image {height: 200px}
+
+#button {
+  background-color:#4aaaa5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.input {
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
